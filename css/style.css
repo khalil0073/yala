@@ -1,0 +1,145 @@
+*,*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+*,*{
+    font-family: "Open Sans";
+}
+.br-section {
+    display:flex;
+    position:relative;
+    z-index:-1;
+    height:100vh;
+    align-items: left;
+    justify-content:center;
+    font-size:25px;
+    background:url("../img/hero.png");
+    background-size:45%;
+    background-repeat:no-repeat;
+    background-position: right top;
+    flex-direction: column;
+    
+}
+.br-section h1,h5{
+    margin:10px 80px;
+    width: 52%;
+    padding-right:100px ;
+    
+
+    
+}
+.br-section button{
+     
+    background-color:#D5B981 ;
+    color: black;
+    width: 20%;
+    padding: 15px 0px;
+    margin:10px 80px;
+    border-color: black;
+}
+.container{
+    padding:0 40px;
+    margin:50px 0 0 0 ;
+
+}
+.img-card{
+    width:100%;
+    min-width: 300px;
+    display:flex;
+}
+
+.img-card img{
+    width:30%;
+    position:relative;
+    
+    margin-left: 40px;
+}
+.img-card h4,h1,p,button{
+    margin:30px;
+
+}
+.fim{
+    display:flex;
+    flex-direction: column;
+    margin:5px 0;
+}
+.img-card h4{
+    color:gray;
+    font-size:20px;
+}
+.img-card h1{
+    color:#1d2434;
+    font-size:50px;
+}
+.img-card p{
+color:gray;
+font-size: 17px;
+}
+.img-card button{
+    color: black;
+    width: 20%;
+    padding: 15px 0px;
+    background-color: white;
+    border-color: black;
+    
+}
+.bl3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.bl3 h5{
+    color:gray;
+    font-size:20px;
+    margin-left:550px;
+}
+.bl3 h1{
+color:#1d2434;
+font-size:60px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.sec {
+    position: relative;
+    display: block;
+}
+.carr {
+    padding: 0 8px;
+    width: 18%;
+    margin-bottom: 12px!important;
+    margin:12px;
+}
+.parent2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.bk2{
+    max-width: 1564px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    box-sizing: border-box;
+}
+.sec2{
+    position:relative;
+    display:inline;
+    
+    
+}
+.zinim{
+display:inline-block;
+
+}
